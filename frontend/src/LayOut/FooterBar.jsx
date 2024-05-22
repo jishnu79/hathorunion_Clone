@@ -16,7 +16,7 @@ function FooterBar() {
                 <ul className='text-sm '>{/* flex flex-col */}
                   {
                     link.link.map((text, inde) => (
-                      <li className='flex items-baseline text-border hover:text-subMain ' key={inde}>
+                      <li className='flex p-1 items-baseline text-border gap-5 hover:text-yellow-500 ' key={inde}>
                         {text.name}
                       </li>
                     ))

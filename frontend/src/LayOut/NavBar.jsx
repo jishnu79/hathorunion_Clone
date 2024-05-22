@@ -7,7 +7,7 @@ function NavBar() {
     const hover = 'hover:text-red-500 transitions text-red-500'
     const Hover = ({ isActive }) => isActive ? 'text-red-500' : hover
     return (
-        <div className=' w-full visible z-20  top-0 left-0 bg-gradient-to-r opacity-95 from-black via-black to-green-600 '>
+        <div className=' w-full sticky shadow translate-y-0 visible z-20  top-0 left-0 bg-gradient-to-r opacity-70 from-black via-black to-green-600 '>
             <div className='md:flex items-center justify-between  py-4 md:px-10 px-7 '>
                 {/* logo section */}
                 <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
@@ -20,7 +20,7 @@ function NavBar() {
                     }
                 </div>
                 {/* linke items */}
-                <ul className={`  md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-15 ml-96' : 'top-[-490px]'}`}>
+                <ul className={`  md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-15 ml-28 w-40 ' : 'top-[-490px]'}`}>
 
                     <li className='md:ml-8 md:my-0 my-7 font-semibold'>
                         <Link to='/' className={Hover}>
