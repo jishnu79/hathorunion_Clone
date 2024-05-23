@@ -10,17 +10,18 @@ function Unloack() {
                         Filler text is text that shares some rem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.
                     </p>
                     <div className='flex gap-5 -mt-4 mb-6 items-center'>
+                    <div className='flex gap-5  mb-6 items-center'>
+                <div className='bg-yellow-400 hover:text-main transition text-white  px-8 py-3 rounded font-medium text-xs sm:text-sm '>
+                    contact us
+                </div>
+            </div>
                     </div>
                 </div>
                 <div>
                     <img src="/image/row.gif" alt="" className='w-full xl:w-96 xl:ml-16 h-full object-contain' />
                 </div>
             </div>
-            <div className='flex gap-5  mb-6 items-center'>
-                <div className='bg-yellow-400 hover:text-main transition text-white  px-8 py-3 rounded font-medium text-xs sm:text-sm '>
-                    contact us
-                </div>
-            </div>
+           
         </div>
     )
 }
