@@ -6,6 +6,9 @@ function Brand() {
   return (
     <div className=' bg-black text-white'>
       <NavBar />
+      <div className=''>
+        <img src="/image/eco.png" alt="" />
+      </div>
       <h2 class="text-7xl text-center">HATHOR <h2>SPOTLIGHT</h2></h2>
       <div class="p-10 sm:grid items-center sm:ml-12 sm:grid-cols-2 lg:grid lg:grid-cols-2 lg:gap-9 md:grid md:grid-cols-2 xl:grid-cols-3 flex flex-col gap-11">
         <div className=''>

@@ -42,3 +42,7 @@ input:focus,textarea:focus,select:focus{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+.box:hover {
+    rotate: x 180deg;
+  }
