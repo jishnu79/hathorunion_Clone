@@ -32,6 +32,13 @@ function Contact() {
         const res = await API.post('/contactUs', content)
         if (res.data.success) {
           message.success(res.data.message)
+         setContent({
+          name: '',
+          email: '',
+          phone: '',
+          catogery: '',
+          message: ''
+         })
         }else{
           message.error(res.data.message)
         }
@@ -108,7 +115,7 @@ function Contact() {
                 <input
                   type='text'
                   name='message'
-                  value={content.meassage}
+                  value={content.message}
                   onChange={handleChange}
                   class="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all  focus:border-yellow-500 focus:outline-0 disabled:border-0 disabled:bg-yellow-500" />
                 <label
